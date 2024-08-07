@@ -1,0 +1,10 @@
+.Kupi {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin-top: 10px;
+  border: 1px solid black;
+}
+.Kupi > label {
+  align-self: center;
+}
