@@ -1,0 +1,83 @@
+.Glavni {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.LeviDeo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Gore,
+.Dole {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 190px;
+  border: 2px dotted black;
+  align-items: center;
+}
+
+.Gore > button {
+  width: 480px;
+  height: 20px;
+  margin-top: 10px;
+}
+
+.Red {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 490px;
+  height: 37px;
+}
+.cb {
+  height: 14px;
+  width: 300px;
+}
+.nesto,
+.Datum,
+.Ime,
+.JMBG {
+  width: 300px;
+  height: 23px;
+}
+
+.Red > label {
+  display: inline-block;
+  width: 160px;
+}
+.Dole {
+  width: 500px;
+  height: 80px;
+  border: 2px dotted black;
+}
+.Sala {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 130px;
+  width: 210px;
+  border: 1px solid black;
+}
+.Sala > button {
+  margin-top: 7px;
+  margin-bottom: 3px;
+  width: 200px;
+}
+.red {
+  display: flex;
+  width: 200px;
+}
+.l1 {
+  display: inline-block;
+  width: 120px;
+}
+.Desno {
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  gap: 21px;
+  flex-wrap: wrap;
+}
