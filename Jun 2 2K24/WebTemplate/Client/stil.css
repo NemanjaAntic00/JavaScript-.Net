@@ -1,0 +1,96 @@
+.Glavni {
+  display: flex;
+  gap: 10px;
+}
+.LeviDeo {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  gap: 10px;
+}
+.Gore,
+.Dole {
+  padding-top: 7px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px dotted black;
+  gap: 7px;
+}
+.Gore > button {
+  width: 480px;
+  margin-bottom: 7px;
+}
+.Dole > button {
+  width: 480px;
+  margin-bottom: 7px;
+}
+.Red {
+  display: flex;
+  width: 490px;
+  justify-content: space-around;
+}
+.Opcije {
+  display: flex;
+  width: 490px;
+  justify-content: space-around;
+}
+.inputciki {
+  width: 300px;
+}
+.Red > label {
+  display: inline-block;
+  width: 160px;
+}
+.Opcije > label {
+  display: inline-block;
+  width: 160px;
+}
+.cbdiv > label {
+  display: inline-block;
+  font-size: 11px;
+}
+.cbdiv > input {
+  width: 11px;
+}
+.cbboxovi {
+  display: flex;
+  width: 308px;
+  justify-content: left;
+  padding-left: 0%;
+}
+.Tura {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 5px;
+  width: 230px;
+  border: 1px solid black;
+}
+.red {
+  margin-left: 7px;
+  margin-right: 7px;
+}
+.l1 {
+  display: inline-block;
+  width: 140px;
+}
+.DesniDeo > div {
+  display: flex;
+  width: 750px;
+  flex-wrap: wrap;
+  gap: 17px;
+}
+.Znam {
+  display: flex;
+  flex-direction: column;
+}
+.Znam > label {
+  display: inline-block;
+  font-size: 14px;
+}
+.red {
+  display: flex;
+}
